@@ -156,19 +156,6 @@ p {
     }
 }
 
-@media screen and (min-width: 412px) {
-    body {
-        background-image: url(images/pattern-background-mobile.svg);
-        background-repeat: no-repeat;
-    }
-
-    .container {
-        top: 40px;
-        left: 37px;
-
-    }
-}
-
 @media screen and (min-width: 1440px){
     .container {
         left: 555px;
