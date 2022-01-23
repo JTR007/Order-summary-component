@@ -142,10 +142,11 @@ p {
     color: var(--dark-blue);
 }
 /*media*/
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
     body {
         background-image: url(images/pattern-background-mobile.svg);
         background-repeat: no-repeat;
+
     }
 
     .container {
@@ -155,7 +156,7 @@ p {
     }
 }
 
-@media (width: 412px) {
+@media screen and (min-width: 412px) {
     body {
         background-image: url(images/pattern-background-mobile.svg);
         background-repeat: no-repeat;
@@ -163,12 +164,12 @@ p {
 
     .container {
         top: 40px;
-        left: 35px;
+        left: 37px;
 
     }
 }
 
-@media (min-width: 1440px){
+@media screen and (min-width: 1440px){
     .container {
         left: 555px;
     }
